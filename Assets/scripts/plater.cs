@@ -5,6 +5,21 @@ using UnityEngine.InputSystem;
 
 public class plater : MonoBehaviour
 {
+    #region Singleton
+    private static plater _instance;
+    public static plater Instance => _instance;
+    private void Awake()
+    {
+        if (_instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
+    #endregion
     private Rigidbody2D rb;
     private float inputX;
     private float inputY;

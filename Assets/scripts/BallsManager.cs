@@ -31,10 +31,13 @@ public class BallsManager : MonoBehaviour
         InitBall();
     }
     public void OnFire()
-    {
-        initialBallrb.isKinematic = false;
-        initialBallrb.AddForce(new Vector2(0,InitialBallSpeed));
-        GameManager.Instance.IsGameStarted = true;
+    {   
+        if(!GameManager.Instance.IsGameStarted)
+        {
+            initialBallrb.isKinematic = false;
+            initialBallrb.AddForce(new Vector2(0,InitialBallSpeed));
+            GameManager.Instance.IsGameStarted = true;
+        }
     }
     private void Update()
     {

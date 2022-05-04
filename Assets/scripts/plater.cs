@@ -41,4 +41,23 @@ public class plater : MonoBehaviour
     {
         transform.position = transform.position + new Vector3(inputX * speed * Time.deltaTime, 0,0);
     }
+    private void OnCollisionEnter2D(Collision2D coll)
+    {
+        if(coll.gameObject.tag == "ball")
+        {
+            Rigidbody2D ballRb = coll.gameObject.GetComponent<Rigidbody2D>();
+            Vector3 hitPoint = coll.contacts[0].point;
+            Vector3 patykcentrum = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y);
+            ballRb.velocity = Vector2.zero;
+            float difference = patykcentrum.x - hitPoint.x;
+            if (hitPoint.x < patykcentrum.x)
+            {
+                ballRb.AddForce(new Vector2(-(Mathf.Abs(difference*200)), BallsManager.Instance.InitialBallSpeed));
+            }
+            else
+            {
+                ballRb.AddForce(new Vector2((Mathf.Abs(difference * 200)), BallsManager.Instance.InitialBallSpeed));
+            }
+        }
+    }
 }

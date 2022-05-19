@@ -34,6 +34,7 @@ public class plater : MonoBehaviour
         Vector2 movementVector = movementValue.Get<Vector2>();
         inputX = movementVector.x;
         inputY = movementVector.y;
+        Debug.Log("movement");
     }
 
     // Update is called once per frame

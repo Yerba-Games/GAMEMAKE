@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: 1385cfcb84ccf2e48a60c138ad0d55d7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d333b61cbf7d2499ecfe2db3a14c47
+      internalID: -86890138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 73
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416011bd006f6724394d18e53f2fc3ef
+      internalID: 1306299656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 73
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b344b1f9dddd37e4786cc75ca79729ac
+      internalID: -1142942365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 73
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95830a78390b1f44a24721dfc424558
+      internalID: -310994367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55847ec41d69ca40a0eb6171ef6c6a6
+      internalID: -2136084428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 55
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884ed069c12f87149b04386bc0931558
+      internalID: 1461503413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 55
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e561ad805c95a774db37fd3122db2b4d
+      internalID: 411261040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 55
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f0a5338faaac24daa9e03398bb28e7
+      internalID: 672354425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf5b1b22500b4442a675c6cc94ed81f
+      internalID: 669503747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 37
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c23b3b1a844fa4eaf06a9d59617bde
+      internalID: -2117288411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_10
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 37
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c4e13f285555a48955b09ae1a70c7f
+      internalID: 887596067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 37
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff384c85e0d44f4295d0ea6a931e0bb
+      internalID: 1858125309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a013aedfe30f741b27a1c6dc3e2d5f
+      internalID: 862990682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 19
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be999c109b50e84bb029701a0e5de2d
+      internalID: -946951958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 19
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885b4e808d5d4ab44997ce959e8705af
+      internalID: -1179449731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_15
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 19
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676899bf5ac6f4344911fd517cbd7391
+      internalID: -1644392376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f79bb8765533f439e446ea37ec23ef
+      internalID: 1692946136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739fbdd9394b1514386f7ecedd8b0fd7
+      internalID: -519442334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dd4f84ca0daa743948cf1cbea7c5e7
+      internalID: 880064659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidAnimowanaPaletkaZrobione_19
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ea13ba44fd6a741b06d6fca1741c62
+      internalID: -1424081362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArkanoidAnimowanaPaletkaZrobione_18: 880064659
+      ArkanoidAnimowanaPaletkaZrobione_13: -946951958
+      ArkanoidAnimowanaPaletkaZrobione_2: -1142942365
+      ArkanoidAnimowanaPaletkaZrobione_7: 672354425
+      ArkanoidAnimowanaPaletkaZrobione_3: -310994367
+      ArkanoidAnimowanaPaletkaZrobione_4: -2136084428
+      ArkanoidAnimowanaPaletkaZrobione_11: 1858125309
+      ArkanoidAnimowanaPaletkaZrobione_10: 887596067
+      ArkanoidAnimowanaPaletkaZrobione_6: 411261040
+      ArkanoidAnimowanaPaletkaZrobione_1: 1306299656
+      ArkanoidAnimowanaPaletkaZrobione_0: -86890138
+      ArkanoidAnimowanaPaletkaZrobione_15: -1644392376
+      ArkanoidAnimowanaPaletkaZrobione_5: 1461503413
+      ArkanoidAnimowanaPaletkaZrobione_16: 1692946136
+      ArkanoidAnimowanaPaletkaZrobione_12: 862990682
+      ArkanoidAnimowanaPaletkaZrobione_14: -1179449731
+      ArkanoidAnimowanaPaletkaZrobione_9: -2117288411
+      ArkanoidAnimowanaPaletkaZrobione_8: 669503747
+      ArkanoidAnimowanaPaletkaZrobione_17: -519442334
+      ArkanoidAnimowanaPaletkaZrobione_19: -1424081362
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

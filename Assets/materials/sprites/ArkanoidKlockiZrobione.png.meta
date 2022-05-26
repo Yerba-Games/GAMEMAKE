@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: a0d6edc4ea9bb174891230f0d9c5206c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 134
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0294ed03442e74e85d938e1d6818a2
+      internalID: 1397257767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 134
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88562b5aa17d244b9e7bb034437df8d
+      internalID: 1883742515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 134
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97516ceca6ab6be4981cbc59ac54d0c9
+      internalID: 86079944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 134
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7385c199c2484446a425f667fadc566
+      internalID: -701012471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd3675f1c2cc874ba1463686f11bb13
+      internalID: 319816139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 115
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c03aa599e0b83745bf9cfe8d61d9765
+      internalID: 103195294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 115
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6617e921a239ec43963d26b02ff4193
+      internalID: -1652946987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 115
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fcfde2c3367514c8b925891a4446ca
+      internalID: -378495338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a79c0a96bb7cda45bf600c03f893929
+      internalID: 1027429689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 96
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625b861df66333941b92acc9f40920df
+      internalID: -503628861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 96
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd726db67d0e2ee4da6d4d8bb4152e5b
+      internalID: -93140684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 96
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d527dca2a40c81540abc21d705b0b563
+      internalID: 2021656923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 77
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407be23be6f88d24fa39e5c5d85cd223
+      internalID: -125829868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 77
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c5a71cec5d13f4493ba933aad1e991
+      internalID: 1212087539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 77
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b668575f070eb2a45910aea189bae998
+      internalID: 968142550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 77
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4952aefba646647ae0be26e9bcf204
+      internalID: 1960731424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 58
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3835fc09b9a4c834e9214636a09b212c
+      internalID: -1948542496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 58
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae3578525809934d9a6ddfe04314f4d
+      internalID: 23572506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_18
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 58
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5645b4d9fd4813a43b999de2f1960370
+      internalID: 1241786702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 58
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f19ee177fdc71b48a4f135f2cc5140c
+      internalID: 1162844886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938a889d221d19d428f50e8b4f722260
+      internalID: -1494174031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 39
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef91768a416ff2c43a2d24b7c1b58949
+      internalID: -694273719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_22
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 39
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bd211aebbfea647a556dc16e8cd4ef
+      internalID: -8901684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 39
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41df16db9df61d44926a18140fe2cd9
+      internalID: 197286855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dd3d8b862315142bc4d47225e49bcb
+      internalID: 1671454245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_25
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 20
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520c65d3b4d20aa479364bcb1e3e3ce4
+      internalID: -158554800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 20
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14d7692b40dbae438d6b6fccbef9803
+      internalID: -1287354146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_27
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 20
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8441c8707578075409e4831441e952b4
+      internalID: -2074045677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae746ab84592a0140b390af3c2969d83
+      internalID: -1466911718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_29
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8515be1da5301b46826b3fcbb9c587e
+      internalID: -193049702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_30
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeaebde5aa3dcf41ba4d5899f62b967
+      internalID: -2070054210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidKlockiZrobione_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bcc9071c4f2744b90475d27d0f4719
+      internalID: -1616827917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArkanoidKlockiZrobione_9: -503628861
+      ArkanoidKlockiZrobione_21: -694273719
+      ArkanoidKlockiZrobione_24: 1671454245
+      ArkanoidKlockiZrobione_23: 197286855
+      ArkanoidKlockiZrobione_11: 2021656923
+      ArkanoidKlockiZrobione_28: -1466911718
+      ArkanoidKlockiZrobione_3: -701012471
+      ArkanoidKlockiZrobione_8: 1027429689
+      ArkanoidKlockiZrobione_7: -378495338
+      ArkanoidKlockiZrobione_22: -8901684
+      ArkanoidKlockiZrobione_27: -2074045677
+      ArkanoidKlockiZrobione_15: 1960731424
+      ArkanoidKlockiZrobione_12: -125829868
+      ArkanoidKlockiZrobione_10: -93140684
+      ArkanoidKlockiZrobione_17: 23572506
+      ArkanoidKlockiZrobione_20: -1494174031
+      ArkanoidKlockiZrobione_13: 1212087539
+      ArkanoidKlockiZrobione_5: 103195294
+      ArkanoidKlockiZrobione_31: -1616827917
+      ArkanoidKlockiZrobione_4: 319816139
+      ArkanoidKlockiZrobione_2: 86079944
+      ArkanoidKlockiZrobione_0: 1397257767
+      ArkanoidKlockiZrobione_14: 968142550
+      ArkanoidKlockiZrobione_19: 1162844886
+      ArkanoidKlockiZrobione_16: -1948542496
+      ArkanoidKlockiZrobione_29: -193049702
+      ArkanoidKlockiZrobione_26: -1287354146
+      ArkanoidKlockiZrobione_18: 1241786702
+      ArkanoidKlockiZrobione_6: -1652946987
+      ArkanoidKlockiZrobione_1: 1883742515
+      ArkanoidKlockiZrobione_25: -158554800
+      ArkanoidKlockiZrobione_30: -2070054210
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

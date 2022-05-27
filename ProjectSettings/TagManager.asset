@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - ball
+  - deth
   layers:
   - Default
   - TransparentFX

@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: fmod-assets/soundsaaaa/Build/Desktop/colisionos.bank
   Name: colisionos
   StudioPath: bank:/colisionos
-  lastModified: 637892495717934591
+  lastModified: 637892844948756024
   FileSizes:
   - Name: Desktop
     Value: 12416
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: fmod-assets/soundsaaaa/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637892495717534835
+  lastModified: 637892844948746022
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -119,7 +119,7 @@ MonoBehaviour:
   - {fileID: -6320703556173961396}
   StringsBanks:
   - {fileID: 8161282960502487628}
-  cacheTime: 637892495717934591
+  cacheTime: 637892844948756024
   cacheVersion: 10
 --- !u!114 &5315868762108439253
 MonoBehaviour:
@@ -163,7 +163,7 @@ MonoBehaviour:
   Path: fmod-assets/soundsaaaa/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637892495717564813
+  lastModified: 637892844948746022
   FileSizes:
   - Name: Desktop
     Value: 906

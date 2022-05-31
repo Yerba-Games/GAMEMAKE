@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3e76f1fac2c89a498cc131614f2e99b
+guid: 06d0a0de48634594eb0a0550a3fa3030
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_0"
+      name: ArkanoidPilkaPoprawiona_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 16
-        width: 5
-        height: 5
+        x: 5
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c6b6c1a88c139146a4660f716f63eba
-      internalID: -922420576
+      spriteID: 022ab2cc20d39fc428b9b19c1a4c847e
+      internalID: -1638714375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_1"
+      name: ArkanoidPilkaPoprawiona_1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 16
-        width: 5
-        height: 5
+        x: 18
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abe2ad2c611076641a83dd4d3406a114
-      internalID: 803798770
+      spriteID: 53a925ecd4380924e9ecfbe7ed5d9876
+      internalID: -136813708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_2"
+      name: ArkanoidPilkaPoprawiona_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 5
-        height: 5
+        x: 31
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,83 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 340c75d59d504fe42915f38c0962e7fb
-      internalID: 1242579124
+      spriteID: d5978c512a4b8d44e84f7f9e141aa400
+      internalID: 1058838620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_3"
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 16
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5af44cb2f20d0b4f8b798b2013bde2f
-      internalID: 163595088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_4"
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 16
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 408e448d456ae444fb8668a102d746d5
-      internalID: 165661299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_5"
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 16
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04d612e5966685843996f18f2ae41e9e
-      internalID: -797450260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_6"
+      name: ArkanoidPilkaPoprawiona_3
       rect:
         serializedVersion: 2
         x: 44
-        y: 16
-        width: 5
-        height: 5
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abe076162735e174a932133a5954af06
-      internalID: 302165319
+      spriteID: 53fe2cf27dcd1ef4cb2686b1f0227788
+      internalID: -1700112155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_7"
+      name: ArkanoidPilkaPoprawiona_4
       rect:
         serializedVersion: 2
-        x: 51
-        y: 16
-        width: 5
-        height: 5
+        x: 57
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96ef170d4845a0e4e8afac35533daac1
-      internalID: -196212926
+      spriteID: 93cd478f0f686a543a95007251456b5b
+      internalID: 973264927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_8"
+      name: ArkanoidPilkaPoprawiona_5
       rect:
         serializedVersion: 2
-        x: 58
-        y: 16
-        width: 5
-        height: 5
+        x: 70
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8dfe1b2e79deb74b90e8c4635e127a8
-      internalID: 488466787
+      spriteID: 7a86046e6e28d744eb945985229ba93d
+      internalID: 222551609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_9"
+      name: ArkanoidPilkaPoprawiona_6
       rect:
         serializedVersion: 2
-        x: 65
-        y: 16
-        width: 5
-        height: 5
+        x: 83
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 781ae8dd4f2f0f745a680823a757bd4b
-      internalID: 780405108
+      spriteID: 2a8ffbb41b4f1e4418a1bb97d1cf3099
+      internalID: 370606507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_10"
+      name: ArkanoidPilkaPoprawiona_7
       rect:
         serializedVersion: 2
-        x: 72
-        y: 16
-        width: 5
-        height: 5
+        x: 96
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a810b61c2f0294942b855965e9eb9f4b
-      internalID: -256848380
+      spriteID: 1e09961460f207b4280cd1a5c9f6f5c4
+      internalID: -1479718635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_11"
+      name: ArkanoidPilkaPoprawiona_8
       rect:
         serializedVersion: 2
-        x: 79
-        y: 16
-        width: 5
-        height: 5
+        x: 109
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8ffb9db71d4dcd449b6feba2e242732
-      internalID: 710463454
+      spriteID: b37f2cad6206a904ca0f38858146e1d9
+      internalID: -368547315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_12"
+      name: ArkanoidPilkaPoprawiona_9
       rect:
         serializedVersion: 2
-        x: 86
-        y: 16
-        width: 5
-        height: 5
+        x: 122
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f364e8722d733f3459160924ca66eade
-      internalID: 1819166004
+      spriteID: c2b9f3c365f54364c9726ef4b03d4b62
+      internalID: 678995949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_13"
+      name: ArkanoidPilkaPoprawiona_10
       rect:
         serializedVersion: 2
-        x: 93
-        y: 16
-        width: 5
-        height: 5
+        x: 135
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,20 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d96f8219a0e0c24489a7081a1ff879d
-      internalID: -1872010761
+      spriteID: 5b0b2cb4cd195824dbdd944e010e5b22
+      internalID: -2106929612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_14"
+      name: ArkanoidPilkaPoprawiona_11
       rect:
         serializedVersion: 2
-        x: 2
-        y: 9
-        width: 5
-        height: 5
+        x: 148
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 485ef7ca9fe50cd439e01997c256b596
-      internalID: 590997150
+      spriteID: 734d8279ab8424f48a716c8269d337d1
+      internalID: -1257972729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_15"
+      name: ArkanoidPilkaPoprawiona_12
       rect:
         serializedVersion: 2
-        x: 9
-        y: 9
-        width: 5
-        height: 5
+        x: 161
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,20 +370,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4a3a60677b63e84f8f22069b41a0a5b
-      internalID: -1727505711
+      spriteID: ed49818a06f28064cb2ac44b1b3f16b9
+      internalID: 1020585371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_16"
+      name: ArkanoidPilkaPoprawiona_13
       rect:
         serializedVersion: 2
-        x: 16
-        y: 9
-        width: 5
-        height: 5
+        x: 174
+        y: 31
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,20 +391,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f103dcf5aa41e645ac3090acd089c95
-      internalID: 1831722704
+      spriteID: 1caf63850c127ac4ba3def9895146adc
+      internalID: -743099069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_17"
+      name: ArkanoidPilkaPoprawiona_14
       rect:
         serializedVersion: 2
-        x: 23
-        y: 9
-        width: 5
-        height: 5
+        x: 5
+        y: 18
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,20 +412,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da5446b6d79361d4e87b4bea7d2e7fa2
-      internalID: 2114833141
+      spriteID: 107d8c2a5c7bbbf4685075ef8ae4e3d6
+      internalID: -961275650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_18"
+      name: ArkanoidPilkaPoprawiona_15
       rect:
         serializedVersion: 2
-        x: 30
-        y: 9
-        width: 5
-        height: 5
+        x: 18
+        y: 18
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,20 +433,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a0d33279ee0cf42a9a49988f4c32d5
-      internalID: -992376428
+      spriteID: 1654f03e444691a409f6b1166852f2d1
+      internalID: -1994290873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_19"
+      name: ArkanoidPilkaPoprawiona_16
       rect:
         serializedVersion: 2
-        x: 37
-        y: 9
-        width: 5
-        height: 5
+        x: 31
+        y: 18
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,314 +454,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6aa1237833aab6479163f94725f5476
-      internalID: 1055126507
+      spriteID: 28b21d03ac8c4db46b714fa562f81e16
+      internalID: 686640968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_20"
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 9
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3f0ea5cbf828674ab7b368d83c1ea60
-      internalID: 1856781266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_21"
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 9
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6718247c25d3e34aa88976ffaa57a89
-      internalID: 477768157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_22"
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 9
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5aed1cb07aaf5e94cbe37088a54c5571
-      internalID: 456408784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_23"
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 9
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f430c489cd7f53346958adcd78428776
-      internalID: 566604038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_24"
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 9
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8905fd85e3b16db4f8ce8e330c800435
-      internalID: 555991821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_25"
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 9
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 110d013dc89b557459678b624f1a99b0
-      internalID: 1624381980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_26"
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 9
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6aadf53162fe25439f55e5bb3a64578
-      internalID: 154710692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_27"
-      rect:
-        serializedVersion: 2
-        x: 93
-        y: 9
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64b569a59130c8e4391bb8369f5191b3
-      internalID: 1837281697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_28"
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 2
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 237506272f229784fbdc62f3c581662c
-      internalID: 1103583143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_29"
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 2
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 258259bbeb3b9d1489056a3051bf027a
-      internalID: 1973767033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_30"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 2
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5841b8db3612136429c1a14de365d5a5
-      internalID: -971194570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_31"
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 2
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51e421bafce0ce942a68bc7da93eab13
-      internalID: -411501170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_32"
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 2
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed28ada9e90fa384da078e273b4f58ac
-      internalID: 1060261730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_33"
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 2
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 067e4cc3554557a4d81f4002113c0b4e
-      internalID: 1137764381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pi\u0142kaRGB_34"
+      name: ArkanoidPilkaPoprawiona_17
       rect:
         serializedVersion: 2
         x: 44
-        y: 2
-        width: 5
-        height: 5
+        y: 18
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,20 +475,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88dc689cf5b0e6e4da942ee342b386d6
-      internalID: -1995128054
+      spriteID: 9f9782e8851b70f41aba731a35466b49
+      internalID: 812218955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_35"
+      name: ArkanoidPilkaPoprawiona_18
       rect:
         serializedVersion: 2
-        x: 51
-        y: 2
-        width: 5
-        height: 5
+        x: 57
+        y: 18
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -853,20 +496,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0307d9e0c3a37594ab233a6ed4977a0a
-      internalID: 1817706595
+      spriteID: a8b3b785becb0e14c92c11c36dc59282
+      internalID: 1580261219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_36"
+      name: ArkanoidPilkaPoprawiona_19
       rect:
         serializedVersion: 2
-        x: 58
-        y: 2
-        width: 5
-        height: 5
+        x: 70
+        y: 18
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,20 +517,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 053c7b2856c08624c84eebcf710b9f63
-      internalID: -758995890
+      spriteID: c4d79049e0144bc4bb184ec5341bb2fd
+      internalID: 1946598942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pi\u0142kaRGB_37"
+      name: ArkanoidPilkaPoprawiona_20
       rect:
         serializedVersion: 2
-        x: 65
-        y: 2
-        width: 5
-        height: 5
+        x: 83
+        y: 18
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -895,8 +538,365 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0923c2484ef0d3a479c4a3e83d797fcc
-      internalID: -924279484
+      spriteID: 2d85fb7c357bdc14d9b7664f8f700dca
+      internalID: -81913952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 18
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20669239b96d3e4caabb4e49c6a4312
+      internalID: -1421230528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_22
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 18
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17c9bf37c3826f4d8e038dec832aea8
+      internalID: 308820131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_23
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 18
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24e50372fc393f45a98b1335c663172
+      internalID: -357289635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 18
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aa39da6be4e5e42a32c9005edbe0b8
+      internalID: 1339291391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 18
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e206518a8c54ca40bca016535a5705e
+      internalID: 1719488237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_26
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 18
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10b338336fd83241b606ec22103ff6e
+      internalID: -1993677362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_27
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 18
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcde78db6f40d6c49a1e72760344572e
+      internalID: 344771394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496f5be96def5984f8b695b86f64a0f9
+      internalID: 1224388631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_29
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6ef0a370fd7694f8ce26a06cff8085
+      internalID: -1540785976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_30
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd800b6ef42f0b4e822709eced35a4f
+      internalID: -1310502440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_31
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297e1a85b49584541830fcc151923ec2
+      internalID: -588089431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_32
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b32146a551ae949ae98c9eda1a4dc9
+      internalID: -1266878156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bdaf496f279ad419d9c0fe44af29ba
+      internalID: -1663307773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_34
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cfca9b6ff7e114092006176bc1c523
+      internalID: 400042383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef096ca317211a343a8c108610b7070b
+      internalID: -980192023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_36
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4055986c3bb1fa548a131d113cbb76d1
+      internalID: -248094956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArkanoidPilkaPoprawiona_37
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7b55376bbd37e4e81d8b41a0c3d9d9
+      internalID: 816910968
       vertices: []
       indices: 
       edges: []
@@ -912,44 +912,44 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Pi\u0142kaRGB_22": 456408784
-      "Pi\u0142kaRGB_14": 590997150
-      "Pi\u0142kaRGB_13": -1872010761
-      "Pi\u0142kaRGB_26": 154710692
-      "Pi\u0142kaRGB_37": -924279484
-      "Pi\u0142kaRGB_27": 1837281697
-      "Pi\u0142kaRGB_31": -411501170
-      "Pi\u0142kaRGB_25": 1624381980
-      "Pi\u0142kaRGB_2": 1242579124
-      "Pi\u0142kaRGB_0": -922420576
-      "Pi\u0142kaRGB_12": 1819166004
-      "Pi\u0142kaRGB_5": -797450260
-      "Pi\u0142kaRGB_23": 566604038
-      "Pi\u0142kaRGB_21": 477768157
-      "Pi\u0142kaRGB_28": 1103583143
-      "Pi\u0142kaRGB_29": 1973767033
-      "Pi\u0142kaRGB_35": 1817706595
-      "Pi\u0142kaRGB_33": 1137764381
-      "Pi\u0142kaRGB_3": 163595088
-      "Pi\u0142kaRGB_8": 488466787
-      "Pi\u0142kaRGB_6": 302165319
-      "Pi\u0142kaRGB_20": 1856781266
-      "Pi\u0142kaRGB_10": -256848380
-      "Pi\u0142kaRGB_24": 555991821
-      "Pi\u0142kaRGB_30": -971194570
-      "Pi\u0142kaRGB_15": -1727505711
-      "Pi\u0142kaRGB_4": 165661299
-      "Pi\u0142kaRGB_1": 803798770
-      "Pi\u0142kaRGB_18": -992376428
-      "Pi\u0142kaRGB_34": -1995128054
-      "Pi\u0142kaRGB_17": 2114833141
-      "Pi\u0142kaRGB_7": -196212926
-      "Pi\u0142kaRGB_16": 1831722704
-      "Pi\u0142kaRGB_9": 780405108
-      "Pi\u0142kaRGB_11": 710463454
-      "Pi\u0142kaRGB_32": 1060261730
-      "Pi\u0142kaRGB_36": -758995890
-      "Pi\u0142kaRGB_19": 1055126507
+      ArkanoidPilkaPoprawiona_16: 686640968
+      ArkanoidPilkaPoprawiona_20: -81913952
+      ArkanoidPilkaPoprawiona_30: -1310502440
+      ArkanoidPilkaPoprawiona_10: -2106929612
+      ArkanoidPilkaPoprawiona_15: -1994290873
+      ArkanoidPilkaPoprawiona_34: 400042383
+      ArkanoidPilkaPoprawiona_14: -961275650
+      ArkanoidPilkaPoprawiona_2: 1058838620
+      ArkanoidPilkaPoprawiona_13: -743099069
+      ArkanoidPilkaPoprawiona_36: -248094956
+      ArkanoidPilkaPoprawiona_4: 973264927
+      ArkanoidPilkaPoprawiona_8: -368547315
+      ArkanoidPilkaPoprawiona_21: -1421230528
+      ArkanoidPilkaPoprawiona_19: 1946598942
+      ArkanoidPilkaPoprawiona_25: 1719488237
+      ArkanoidPilkaPoprawiona_23: -357289635
+      ArkanoidPilkaPoprawiona_7: -1479718635
+      ArkanoidPilkaPoprawiona_6: 370606507
+      ArkanoidPilkaPoprawiona_11: -1257972729
+      ArkanoidPilkaPoprawiona_3: -1700112155
+      ArkanoidPilkaPoprawiona_27: 344771394
+      ArkanoidPilkaPoprawiona_18: 1580261219
+      ArkanoidPilkaPoprawiona_37: 816910968
+      ArkanoidPilkaPoprawiona_9: 678995949
+      ArkanoidPilkaPoprawiona_35: -980192023
+      ArkanoidPilkaPoprawiona_17: 812218955
+      ArkanoidPilkaPoprawiona_1: -136813708
+      ArkanoidPilkaPoprawiona_5: 222551609
+      ArkanoidPilkaPoprawiona_12: 1020585371
+      ArkanoidPilkaPoprawiona_28: 1224388631
+      ArkanoidPilkaPoprawiona_0: -1638714375
+      ArkanoidPilkaPoprawiona_31: -588089431
+      ArkanoidPilkaPoprawiona_24: 1339291391
+      ArkanoidPilkaPoprawiona_22: 308820131
+      ArkanoidPilkaPoprawiona_32: -1266878156
+      ArkanoidPilkaPoprawiona_26: -1993677362
+      ArkanoidPilkaPoprawiona_29: -1540785976
+      ArkanoidPilkaPoprawiona_33: -1663307773
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

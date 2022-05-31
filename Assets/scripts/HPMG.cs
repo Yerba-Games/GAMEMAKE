@@ -14,13 +14,9 @@ public class HPMG : MonoBehaviour
     {
      for (int i = 0; i < hearts.Length; i++)
      {
-       if (i<HP)
+       if (!(i<HP))
        {
-           hearts[i].color = Color.gray;
-       }
-       else
-       {
-           hearts[i].color  = Color.black;
+          Destroy(hearts[i]);
        }
      }   
     }

@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
     }
     IEnumerator count()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForEndOfFrame();
         BRC = BR.Length;
         Victory();
     }

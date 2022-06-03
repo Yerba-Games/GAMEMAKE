@@ -29,8 +29,8 @@ public class UIMG : MonoBehaviour
     private void UST(int incresmet)
     {
         this.Score += incresmet;
-        string sS = this.Score.ToString().PadLeft(5, '0');
-        scoreText.text = $@"SCORE:{sS}";
+        string sS = this.Score.ToString();
+        scoreText.text = "SCORE:"+"\n"+sS;
         finalScore.text = $@"YOUR FINAL SCORE:{sS}";
     }
     public void OnBD(Block_Script obj)

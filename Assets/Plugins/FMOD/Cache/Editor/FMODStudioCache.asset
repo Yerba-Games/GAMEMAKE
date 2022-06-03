@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: fmod-assets/araknoidasounds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637898016544605816
+  lastModified: 637898753351589001
   FileSizes:
   - Name: Desktop
     Value: 962
@@ -73,7 +73,7 @@ MonoBehaviour:
   - {fileID: 6875010384902651215}
   StringsBanks:
   - {fileID: -8886936153359907488}
-  cacheTime: 637898016544605816
+  cacheTime: 637898753351589001
   cacheVersion: 10
 --- !u!114 &823189892269611060
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   Path: fmod-assets/araknoidasounds/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637898016544585817
+  lastModified: 637898753351589001
   FileSizes:
   - Name: Desktop
     Value: 3450048

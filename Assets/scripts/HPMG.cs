@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 public class HPMG : MonoBehaviour
-{
+{//players health menager
     #region Singleton
     private static HPMG _instance;
     public static HPMG Instance => _instance;

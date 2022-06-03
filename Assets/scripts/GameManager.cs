@@ -28,13 +28,15 @@ public class GameManager : MonoBehaviour
     #endregion
     public bool IsGameStarted {get; set;}
     public GameObject[] BR;
+    //Balls Remaing - based on list of GameObjects
     public int BRC;
+    //Balls Remaing Count - simply converst list to int making it able to check with if statment
     private void Start()
     {
         ball.OBD += Ball_OBD;
         BR = GameObject.FindGameObjectsWithTag("block");
     }
-
+    //OBD-On Ball Destrucion
     private void Ball_OBD(ball obj)
     { 
         if (BallsManager.Instance.Balls.Count <= 0)
@@ -53,12 +55,15 @@ public class GameManager : MonoBehaviour
             GO.SetActive(true);
         }
     }
+    /*remeber kids if you need to count something in unity do it at beginig of creating it
+     * but if you don't
+     * WELCOME TO SHIT HELL of FUNCION*/
     public void VictoryCheck()
     {
         BR = GameObject.FindGameObjectsWithTag("block");
         StartCoroutine(count());
     }
-    IEnumerator count()
+    IEnumerator count()//guess which take longer than frame to create resoving in endles relodes
     {
         yield return new WaitForEndOfFrame();
         BRC = BR.Length;

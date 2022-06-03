@@ -1166,7 +1166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 93.3, y: 196}
+  m_AnchoredPosition: {x: 255.8, y: 196}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &231099788
@@ -1403,7 +1403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 127.6, y: 196}
+  m_AnchoredPosition: {x: 255.79997, y: 165.95}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &397788748
@@ -3004,7 +3004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 117, y: 72.99997}
+  m_AnchoredPosition: {x: -59, y: 72.99997}
   m_SizeDelta: {x: 566.3018, y: 197.46289}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883924960
@@ -3027,7 +3027,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SCORE:0
+  m_text: 'SCORE:
+
+    0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 279dc8654358db44d8e3e7bf786b0174, type: 2}
   m_sharedMaterial: {fileID: -5839667917298677047, guid: 279dc8654358db44d8e3e7bf786b0174, type: 2}
@@ -3303,8 +3305,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: -35}
-  m_SizeDelta: {x: 207.2478, y: 50}
+  m_AnchoredPosition: {x: 26.1, y: -47.525787}
+  m_SizeDelta: {x: 228.914, y: 75.0516}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1121783884
 MonoBehaviour:
@@ -3326,7 +3328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: your final score:0000
+  m_text: YOUR FINAL SCORE:0000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 279dc8654358db44d8e3e7bf786b0174, type: 2}
   m_sharedMaterial: {fileID: -5839667917298677047, guid: 279dc8654358db44d8e3e7bf786b0174, type: 2}
@@ -3389,7 +3391,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -22.343346, y: 0, z: -52.151077, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3416,7 +3418,6 @@ GameObject:
   - component: {fileID: 1266442292}
   - component: {fileID: 1266442291}
   - component: {fileID: 1266442295}
-  - component: {fileID: 1266442296}
   m_Layer: 0
   m_Name: Top_boundary
   m_TagString: Untagged
@@ -3568,18 +3569,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &1266442296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266442290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6517086c48b342f4ba575ea80bcdfea4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1282217623
 GameObject:
   m_ObjectHideFlags: 0
@@ -3912,7 +3901,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 161.6, y: 196}
+  m_AnchoredPosition: {x: 255.79997, y: 135.86}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1449449470
@@ -5073,8 +5062,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: 3.0199}
-  m_SizeDelta: {x: 224.1593, y: 43.9602}
+  m_AnchoredPosition: {x: -27.3, y: 11.1447}
+  m_SizeDelta: {x: 254.6274, y: 60.2099}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1722784498
 MonoBehaviour:
@@ -5123,8 +5112,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5159,7 +5148,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -29.791046, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

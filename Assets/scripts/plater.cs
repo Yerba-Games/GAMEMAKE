@@ -20,7 +20,6 @@ public class plater : MonoBehaviour
     #endregion
     private Rigidbody2D rb;
     private float inputX;
-    private float inputY;
     public float speed = 9999f;
     // Start is called before the first frame update
     void Start()
@@ -31,7 +30,6 @@ public class plater : MonoBehaviour
     {
         Vector2 movementVector = movementValue.Get<Vector2>();
         inputX = movementVector.x;
-        inputY = movementVector.y;
     }
     public void OnFire()
     {
@@ -49,10 +47,11 @@ public class plater : MonoBehaviour
         {
             Rigidbody2D ballRb = coll.gameObject.GetComponent<Rigidbody2D>();
             Vector3 hitPoint = coll.contacts[0].point;
-            Vector3 patykcentrum = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y);
+            Vector3 stickCenter = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y);
             ballRb.velocity = Vector2.zero;
-            float difference = patykcentrum.x - hitPoint.x;
-            if (hitPoint.x < patykcentrum.x)
+            float difference = stickCenter.x - hitPoint.x;
+            if (hitPoint.x < stickCenter.x)
+            //based on difference between where the ball hits and the center of stick adds a deviation to a ball
             {
                 ballRb.AddForce(new Vector2(-(Mathf.Abs(difference*200)), BallsManager.Instance.InitialBallSpeed));
             }

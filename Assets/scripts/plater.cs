@@ -33,7 +33,7 @@ public class plater : MonoBehaviour
         inputX = movementVector.x;
         inputY = movementVector.y;
     }
-    void onFire()
+    public void OnFire()
     {
         BallsManager.Instance.Fire();
     }

@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     [SerializeField]private GameObject GS;
     [SerializeField]private GameObject GO;
     [SerializeField]private GameObject Player;
-    [SerializeField]private GameObject BMG;
 
     #region Singleton
     private static GameManager _instance;
@@ -52,7 +51,6 @@ public class GameManager : MonoBehaviour
             GS.SetActive(false);
             Player.SetActive(false);
             GO.SetActive(true);
-            BMG.SetActive(false);
         }
     }
     public void VictoryCheck()

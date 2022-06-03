@@ -30,8 +30,8 @@ public class UIMG : MonoBehaviour
     {
         this.Score += incresmet;
         string sS = this.Score.ToString().PadLeft(5, '0');
-        scoreText.text = $@"score:{sS}";
-        finalScore.text = $@"your final score:{sS}";
+        scoreText.text = $@"SCORE:{sS}";
+        finalScore.text = $@"YOUR FINAL SCORE:{sS}";
     }
     public void OnBD(Block_Script obj)
     {

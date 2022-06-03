@@ -8,6 +8,7 @@ public class Block_Script : MonoBehaviour
     public int HP = 1;
     public static event Action<Block_Script> OnBD;
     public GameObject Death;
+    [SerializeField] private GameManager _GM;
     void OnCollisionEnter2D(Collision2D collision)
     {
         ball Ball = collision.gameObject.GetComponent<ball>();

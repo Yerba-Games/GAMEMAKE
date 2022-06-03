@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System;
 
 public class GameManager : MonoBehaviour
 {   
@@ -21,9 +23,19 @@ public class GameManager : MonoBehaviour
     }
     #endregion
     public bool IsGameStarted {get; set;}
+    public GameObject[] BR;
+    public int BRC;
     private void Start()
     {
         ball.OBD += Ball_OBD;
+        BR = GameObject.FindGameObjectsWithTag("block");
+        Debug.Log(BRC);
+    }
+    private void FixedUpdate()
+    { 
+        BRC = BR.Length;
+        Victory();
+        Debug.Log(BRC);
     }
     private void Ball_OBD(ball obj)
     { 
@@ -41,4 +53,12 @@ public class GameManager : MonoBehaviour
             Debug.Log("GameOver");
         }
     }
+    public void Victory()
+    {
+        if(BRC<=0)
+        {
+            SceneManager.LoadScene("game");
+        }
+    }
+
 }

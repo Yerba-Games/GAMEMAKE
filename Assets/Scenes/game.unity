@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 121108203}
   m_Layer: 0
   m_Name: Yellow_Block (4)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,6 +266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &121108200
 Rigidbody2D:
   serializedVersion: 4
@@ -380,7 +381,7 @@ GameObject:
   - component: {fileID: 121618015}
   m_Layer: 0
   m_Name: Yellow_Block (2)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -466,6 +467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &121618012
 Rigidbody2D:
   serializedVersion: 4
@@ -580,7 +582,7 @@ GameObject:
   - component: {fileID: 144954200}
   m_Layer: 0
   m_Name: Greem_Block (1)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -666,6 +668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &144954197
 Rigidbody2D:
   serializedVersion: 4
@@ -944,7 +947,7 @@ GameObject:
   - component: {fileID: 203079410}
   m_Layer: 0
   m_Name: Greem_Block (4)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1030,6 +1033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &203079407
 Rigidbody2D:
   serializedVersion: 4
@@ -1288,7 +1292,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &387185291
 MonoBehaviour:
@@ -1444,7 +1448,7 @@ GameObject:
   - component: {fileID: 424529553}
   m_Layer: 0
   m_Name: Yellow_Block (1)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1530,6 +1534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &424529550
 Rigidbody2D:
   serializedVersion: 4
@@ -1644,7 +1649,7 @@ GameObject:
   - component: {fileID: 469766319}
   m_Layer: 0
   m_Name: Greem_Block (2)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1730,6 +1735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &469766316
 Rigidbody2D:
   serializedVersion: 4
@@ -1844,7 +1850,7 @@ GameObject:
   - component: {fileID: 497617258}
   m_Layer: 0
   m_Name: Blue_Block (6)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1930,6 +1936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &497617255
 Rigidbody2D:
   serializedVersion: 4
@@ -2039,7 +2046,6 @@ GameObject:
   - component: {fileID: 514274037}
   - component: {fileID: 514274036}
   - component: {fileID: 514274035}
-  - component: {fileID: 514274039}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2122,26 +2128,13 @@ RectTransform:
   m_Children:
   - {fileID: 105487003}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &514274039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514274034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6451742ad29ae0241915957e823e4463, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 883924960}
 --- !u!1 &518397347
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,7 +2218,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &518397350
 MonoBehaviour:
@@ -2436,7 +2429,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &559854846
 MonoBehaviour:
@@ -2483,7 +2476,7 @@ GameObject:
   - component: {fileID: 590899648}
   m_Layer: 0
   m_Name: Blue_Block (2)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2569,6 +2562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &590899645
 Rigidbody2D:
   serializedVersion: 4
@@ -2683,7 +2677,7 @@ GameObject:
   - component: {fileID: 591580432}
   m_Layer: 0
   m_Name: Yellow_Block (3)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2769,6 +2763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &591580429
 Rigidbody2D:
   serializedVersion: 4
@@ -2883,7 +2878,7 @@ GameObject:
   - component: {fileID: 752998495}
   m_Layer: 0
   m_Name: Blue_Block (1)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2969,6 +2964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &752998492
 Rigidbody2D:
   serializedVersion: 4
@@ -3083,7 +3079,7 @@ GameObject:
   - component: {fileID: 773583965}
   m_Layer: 0
   m_Name: Greem_Block (3)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3169,6 +3165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &773583962
 Rigidbody2D:
   serializedVersion: 4
@@ -3266,6 +3263,52 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!1 &805440365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 805440366}
+  - component: {fileID: 805440367}
+  m_Layer: 0
+  m_Name: MGDDOL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &805440366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805440365}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.14265908, y: -4.2893715, z: -0.002789146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2084161376}
+  - {fileID: 1659721679}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &805440367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805440365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f668ecb70f938b74aa06c52a222c7c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &878018983
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,7 +3362,7 @@ Transform:
   - {fileID: 1703762806}
   - {fileID: 497617250}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &883924958
 GameObject:
@@ -3650,7 +3693,6 @@ Transform:
   m_Children:
   - {fileID: 1447786300}
   - {fileID: 1307584957}
-  - {fileID: 2084161376}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3835,7 +3877,7 @@ GameObject:
   - component: {fileID: 1282217632}
   m_Layer: 0
   m_Name: Yellow_Block (6)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3921,6 +3963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1282217629
 Rigidbody2D:
   serializedVersion: 4
@@ -4204,6 +4247,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _HPMG: {fileID: 2084161377}
+  BR: []
+  BRC: 22
 --- !u!1 &1449449468
 GameObject:
   m_ObjectHideFlags: 0
@@ -4297,7 +4342,7 @@ GameObject:
   - component: {fileID: 1472799934}
   m_Layer: 0
   m_Name: Yellow_Block (5)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4383,6 +4428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1472799931
 Rigidbody2D:
   serializedVersion: 4
@@ -4497,7 +4543,7 @@ GameObject:
   - component: {fileID: 1604494456}
   m_Layer: 0
   m_Name: Blue_Block (4)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4583,6 +4629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1604494453
 Rigidbody2D:
   serializedVersion: 4
@@ -4712,8 +4759,53 @@ Transform:
   - {fileID: 999106047}
   - {fileID: 188919828}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1659721678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1659721679}
+  - component: {fileID: 1659721680}
+  m_Layer: 0
+  m_Name: UIMG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1659721679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659721678}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805440366}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1659721680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659721678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6451742ad29ae0241915957e823e4463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 883924960}
 --- !u!1 &1690162352
 GameObject:
   m_ObjectHideFlags: 0
@@ -4731,7 +4823,7 @@ GameObject:
   - component: {fileID: 1690162361}
   m_Layer: 0
   m_Name: Red_Block (4)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4817,6 +4909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1690162358
 Rigidbody2D:
   serializedVersion: 4
@@ -4931,7 +5024,7 @@ GameObject:
   - component: {fileID: 1703762814}
   m_Layer: 0
   m_Name: Blue_Block (5)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5017,6 +5110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1703762811
 Rigidbody2D:
   serializedVersion: 4
@@ -5131,7 +5225,7 @@ GameObject:
   - component: {fileID: 1722450050}
   m_Layer: 0
   m_Name: Greem_Block (6)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5217,6 +5311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1722450047
 Rigidbody2D:
   serializedVersion: 4
@@ -5331,7 +5426,7 @@ GameObject:
   - component: {fileID: 1798699653}
   m_Layer: 0
   m_Name: Red_Block
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5417,6 +5512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1798699650
 Rigidbody2D:
   serializedVersion: 4
@@ -5531,7 +5627,7 @@ GameObject:
   - component: {fileID: 1812928279}
   m_Layer: 0
   m_Name: Greem_Block (5)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5617,6 +5713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1812928276
 Rigidbody2D:
   serializedVersion: 4
@@ -5731,7 +5828,7 @@ GameObject:
   - component: {fileID: 1884524962}
   m_Layer: 0
   m_Name: Red_Block (3)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5817,6 +5914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1884524959
 Rigidbody2D:
   serializedVersion: 4
@@ -5931,7 +6029,7 @@ GameObject:
   - component: {fileID: 1989121039}
   m_Layer: 0
   m_Name: Blue_Block (3)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6017,6 +6115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1989121036
 Rigidbody2D:
   serializedVersion: 4
@@ -6131,7 +6230,7 @@ GameObject:
   - component: {fileID: 1995624318}
   m_Layer: 0
   m_Name: Red_Block (5)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6217,6 +6316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &1995624315
 Rigidbody2D:
   serializedVersion: 4
@@ -6331,7 +6431,7 @@ GameObject:
   - component: {fileID: 2009817246}
   m_Layer: 0
   m_Name: Red_Block (1)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6417,6 +6517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &2009817243
 Rigidbody2D:
   serializedVersion: 4
@@ -6531,7 +6632,7 @@ GameObject:
   - component: {fileID: 2064058801}
   m_Layer: 0
   m_Name: Red_Block (2)
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6617,6 +6718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
+  _GM: {fileID: 1447786301}
 --- !u!50 &2064058798
 Rigidbody2D:
   serializedVersion: 4
@@ -7020,13 +7122,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084161375}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1247892539}
-  m_RootOrder: 2
+  m_Father: {fileID: 805440366}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2084161377
 MonoBehaviour:

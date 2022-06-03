@@ -1,8 +1,22 @@
 using UnityEngine;
 using UnityEngine.UI;
-
 public class HPMG : MonoBehaviour
 {
+    #region Singleton
+    private static HPMG _instance;
+    public static HPMG Instance => _instance;
+    private void Awake()
+    {
+        if (_instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
+    #endregion
     public int HP;
     [SerializeField] private Image[] hearts;
 

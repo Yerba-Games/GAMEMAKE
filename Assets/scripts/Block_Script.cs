@@ -21,7 +21,9 @@ public class Block_Script : MonoBehaviour
         if(this.HP<=0)
         {
             OnBD?.Invoke(this);
+            gameObject.transform.tag = "deadBlock";
             Instantiate(Death, transform.position, transform.rotation);
+            _GM.VictoryCheck();
             Destroy(this.gameObject);
         }
         else

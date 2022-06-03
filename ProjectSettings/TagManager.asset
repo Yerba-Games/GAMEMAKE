@@ -7,6 +7,7 @@ TagManager:
   - ball
   - deth
   - block
+  - deadBlock
   layers:
   - Default
   - TransparentFX

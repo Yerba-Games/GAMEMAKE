@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {   
@@ -29,14 +29,8 @@ public class GameManager : MonoBehaviour
     {
         ball.OBD += Ball_OBD;
         BR = GameObject.FindGameObjectsWithTag("block");
-        Debug.Log(BRC);
     }
-    private void FixedUpdate()
-    { 
-        BRC = BR.Length;
-        Victory();
-        Debug.Log(BRC);
-    }
+
     private void Ball_OBD(ball obj)
     { 
         if (BallsManager.Instance.Balls.Count <= 0)
@@ -52,6 +46,17 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("GameOver");
         }
+    }
+    public void VictoryCheck()
+    {
+        BR = GameObject.FindGameObjectsWithTag("block");
+        StartCoroutine(count());
+    }
+    IEnumerator count()
+    {
+        yield return new WaitForSeconds(1);
+        BRC = BR.Length;
+        Victory();
     }
     public void Victory()
     {

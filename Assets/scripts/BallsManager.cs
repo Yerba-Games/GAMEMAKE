@@ -29,7 +29,7 @@ public class BallsManager : MonoBehaviour
     {
         InitBall();
     }
-    public void OnFire()
+    public void Fire()
     {   
         if(!GameManager.Instance.IsGameStarted)
         {

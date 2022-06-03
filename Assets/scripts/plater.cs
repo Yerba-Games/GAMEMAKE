@@ -33,6 +33,10 @@ public class plater : MonoBehaviour
         inputX = movementVector.x;
         inputY = movementVector.y;
     }
+    void onFire()
+    {
+        BallsManager.Instance.Fire();
+    }
 
     // Update is called once per frame
     void Update()

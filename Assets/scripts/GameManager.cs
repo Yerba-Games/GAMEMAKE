@@ -5,6 +5,11 @@ using System.Collections;
 public class GameManager : MonoBehaviour
 {   
     [SerializeField]private HPMG _HPMG;
+    [SerializeField]private GameObject GS;
+    [SerializeField]private GameObject GO;
+    [SerializeField]private GameObject Player;
+    [SerializeField]private GameObject BMG;
+
     #region Singleton
     private static GameManager _instance;
     public static GameManager Instance => _instance;
@@ -44,7 +49,10 @@ public class GameManager : MonoBehaviour
     { 
         if(_HPMG.HP<=0)
         {
-            Debug.Log("GameOver");
+            GS.SetActive(false);
+            Player.SetActive(false);
+            GO.SetActive(true);
+            BMG.SetActive(false);
         }
     }
     public void VictoryCheck()
@@ -62,7 +70,7 @@ public class GameManager : MonoBehaviour
     {
         if(BRC<=0)
         {
-            SceneManager.LoadScene("game");
+            SceneManager.LoadScene("game 2");
         }
     }
 

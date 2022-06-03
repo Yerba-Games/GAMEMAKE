@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3fe4a7cc-ecbe-4f6a-90ad-5bb450bf8d33}">
+		<property name="assetPath">
+			<value>arkanoidamusic.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32.316625000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dbabae37-7519-4167-b002-b33ebc9bd7ff}</destination>
+		</relationship>
+	</object>
+</objects>

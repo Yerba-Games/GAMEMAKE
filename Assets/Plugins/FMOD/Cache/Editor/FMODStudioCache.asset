@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9087784856861050503
+--- !u!114 &-8886936153359907488
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,37 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/colisionos.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: fmod-assets/soundsaaaa/Build/Desktop/colisionos.bank
-  Name: colisionos
-  StudioPath: bank:/colisionos
-  lastModified: 637892495717934591
+  Path: fmod-assets/araknoidasounds/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637898016544605816
   FileSizes:
   - Name: Desktop
-    Value: 12416
+    Value: 962
   Exists: 1
---- !u!114 &-6320703556173961396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: fmod-assets/soundsaaaa/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637892495717534835
-  FileSizes:
-  - Name: Desktop
-    Value: 1036
-  Exists: 1
---- !u!114 &-4791344433895751228
+--- !u!114 &-4823115166034961436
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50,43 +30,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/block_col
+  m_Name: event:/event/cube_con
   m_EditorClassIdentifier: 
-  Path: event:/block_col
+  Path: event:/event/cube_con
   Guid:
-    Data1: 1289428124
-    Data2: 1230373271
-    Data3: -901360714
-    Data4: 470050205
+    Data1: 1322482842
+    Data2: 1175204291
+    Data3: -1417384317
+    Data4: -1195140683
   Banks:
-  - {fileID: -9087784856861050503}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-3900841873952138025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/wall_col
-  m_EditorClassIdentifier: 
-  Path: event:/wall_col
-  Guid:
-    Data1: 625890311
-    Data2: 1110102678
-    Data3: -1198014287
-    Data4: -647298454
-  Banks:
-  - {fileID: -9087784856861050503}
+  - {fileID: 6875010384902651215}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -107,21 +60,22 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 8161282960502487628}
-  - {fileID: -9087784856861050503}
-  - {fileID: -6320703556173961396}
+  - {fileID: -8886936153359907488}
+  - {fileID: 6875010384902651215}
   EditorEvents:
-  - {fileID: -3900841873952138025}
-  - {fileID: 5315868762108439253}
-  - {fileID: -4791344433895751228}
+  - {fileID: 8265590052575184508}
+  - {fileID: 823189892269611060}
+  - {fileID: 7715576297169627952}
+  - {fileID: -4823115166034961436}
+  - {fileID: 5784197126721526088}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -6320703556173961396}
+  - {fileID: 6875010384902651215}
   StringsBanks:
-  - {fileID: 8161282960502487628}
-  cacheTime: 637892495717934591
+  - {fileID: -8886936153359907488}
+  cacheTime: 637898016544605816
   cacheVersion: 10
---- !u!114 &5315868762108439253
+--- !u!114 &823189892269611060
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,16 +85,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/platfotm_col
+  m_Name: event:/event/wallcoll
   m_EditorClassIdentifier: 
-  Path: event:/platfotm_col
+  Path: event:/event/wallcoll
   Guid:
-    Data1: -535004124
-    Data2: 1338972452
-    Data3: -1688834681
-    Data4: 879444277
+    Data1: -1031902845
+    Data2: 1140962880
+    Data3: 1032518314
+    Data4: 2035307094
   Banks:
-  - {fileID: -9087784856861050503}
+  - {fileID: 6875010384902651215}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -148,7 +102,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &8161282960502487628
+--- !u!114 &5784197126721526088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event/platfon_con
+  m_EditorClassIdentifier: 
+  Path: event:/event/platfon_con
+  Guid:
+    Data1: 882492653
+    Data2: 1132189826
+    Data3: -1753124730
+    Data4: 1739635952
+  Banks:
+  - {fileID: 6875010384902651215}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6875010384902651215
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,13 +139,67 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: fmod-assets/soundsaaaa/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637892495717564813
+  Path: fmod-assets/araknoidasounds/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637898016544585817
   FileSizes:
   - Name: Desktop
-    Value: 906
+    Value: 3450048
   Exists: 1
+--- !u!114 &7715576297169627952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/msuic
+  m_EditorClassIdentifier: 
+  Path: event:/music/msuic
+  Guid:
+    Data1: -444720251
+    Data2: 1214443687
+    Data3: -1051537763
+    Data4: -97997361
+  Banks:
+  - {fileID: 6875010384902651215}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8265590052575184508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/music/New Event
+  Guid:
+    Data1: -406860523
+    Data2: 1178316787
+    Data3: 1625229444
+    Data4: -268240971
+  Banks:
+  - {fileID: 6875010384902651215}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

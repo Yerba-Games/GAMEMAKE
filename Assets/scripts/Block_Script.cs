@@ -6,9 +6,28 @@ public class Block_Script : MonoBehaviour
     public int HP = 1;
     public static event Action<Block_Script> OnBD;
     public GameObject Death;
-    void OnCollisionEnter2D(Collision2D collision)
+    public float AddSpeed = 100;
+
+    void OnCollisionEnter2D(Collision2D coll)
     {
-        ball Ball = collision.gameObject.GetComponent<ball>();
+;
+        if (coll.gameObject.tag == "ball")
+        {
+            Rigidbody2D ballRb = coll.gameObject.GetComponent<Rigidbody2D>();
+            Vector3 hitPoint = coll.contacts[0].point;
+            Vector3 patykcentrum = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y);
+            ballRb.velocity = Vector2.zero;
+            float difference = patykcentrum.x - hitPoint.x;
+            if (hitPoint.x < patykcentrum.x)
+            {
+                ballRb.AddForce(new Vector2(-(Mathf.Abs(difference * 200)), AddSpeed));
+            }
+            else
+            {
+                ballRb.AddForce(new Vector2((Mathf.Abs(difference * 200)), AddSpeed));
+            }
+        }
+        ball Ball = coll.gameObject.GetComponent<ball>();
         APCL(Ball);
         
     }

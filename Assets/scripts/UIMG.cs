@@ -21,6 +21,7 @@ public class UIMG : MonoBehaviour
     #endregion
     public int Score { get; set; }
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI finalScore;
     private void Start()
     {
         Block_Script.OnBD += OnBD;
@@ -30,6 +31,7 @@ public class UIMG : MonoBehaviour
         this.Score += incresmet;
         string sS = this.Score.ToString().PadLeft(5, '0');
         scoreText.text = $@"scrore:{sS}";
+        finalScore.text = $@"your final score:{sS}";
     }
     public void OnBD(Block_Script obj)
     {

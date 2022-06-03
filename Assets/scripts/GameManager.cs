@@ -71,6 +71,7 @@ public class GameManager : MonoBehaviour
         if(BRC<=0)
         {
             SceneManager.LoadScene("game 2");
+            IsGameStarted = false;
         }
     }
 

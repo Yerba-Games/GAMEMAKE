@@ -3,12 +3,16 @@ using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
-    public static bool GameIsPaused = false;
-    public GameObject pausemenuUI;
     private void Awake()
     {
         pausemenuUI.SetActive(false);
     }
+    private void OnEnable()
+    {
+        pausemenuUI.SetActive(false);
+    }
+    public static bool GameIsPaused = false;
+    public GameObject pausemenuUI;
     void OnPauseMenu()
     {
             if (GameIsPaused)
@@ -35,5 +39,16 @@ public class PauseManager : MonoBehaviour
         pausemenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+    }
+    public void LoadScene(string name)
+    {
+        if (name != null)
+        {
+            SceneManager.LoadScene(name);
+            Resume();
+            GameManager.Instance.IsGameStarted = false;
+            HPMG.Instance.HP = 3;
+            UIMG.Instance.Score = 0;
+        }
     }
 }

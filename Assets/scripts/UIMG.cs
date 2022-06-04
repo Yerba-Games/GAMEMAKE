@@ -26,6 +26,10 @@ public class UIMG : MonoBehaviour
     {
         Block_Script.OnBD += OnBD;
     }
+    private void OnEnable()
+    {
+        Block_Script.OnBD += OnBD;
+    }
     private void UST(int incresmet)
     {
         this.Score += incresmet;
@@ -39,6 +43,7 @@ public class UIMG : MonoBehaviour
     }
     public void OnDisable()
     {
+        scoreText.text = "SCORE:" + "\n" + "0";
         Block_Script.OnBD -= OnBD;
     }
     void onExit()

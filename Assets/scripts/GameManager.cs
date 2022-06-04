@@ -12,8 +12,6 @@ public class GameManager : MonoBehaviour
     #region Singleton
     private static GameManager _instance;
     public static GameManager Instance => _instance;
- 
-
     private void Awake()
     {
         if(_instance != null) 
@@ -24,6 +22,7 @@ public class GameManager : MonoBehaviour
         {
             _instance = this;
         }
+ 
     }
     #endregion
     public bool IsGameStarted {get; set;}
@@ -54,6 +53,12 @@ public class GameManager : MonoBehaviour
             Player.SetActive(false);
             GO.SetActive(true);
         }
+    }
+    private void OnEnable()
+    {
+        GS.SetActive(true);
+        Player.SetActive(true);
+        GO.SetActive(false);
     }
     /*remeber kids if you need to count something in unity do it at beginig of creating it
      * but if you don't

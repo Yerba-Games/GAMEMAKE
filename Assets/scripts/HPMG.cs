@@ -20,8 +20,12 @@ public class HPMG : MonoBehaviour
     public int HP;
     [SerializeField] private Image[] hearts;
 
-    private void Start()
+    private void OnEnable()
     {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            hearts[i].enabled=true;
+        }
             UpdateHealth();
     }
     public void UpdateHealth()
@@ -30,7 +34,7 @@ public class HPMG : MonoBehaviour
      {
        if (!(i<HP))
        {
-          Destroy(hearts[i]);
+            hearts[i].enabled=false;
        }
      }   
     }

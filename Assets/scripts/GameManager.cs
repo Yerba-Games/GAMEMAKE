@@ -5,9 +5,10 @@ using System.Collections;
 public class GameManager : MonoBehaviour
 {   
     [SerializeField]private HPMG _HPMG;
-    [SerializeField]private GameObject GS;
-    [SerializeField]private GameObject GO;
+    [SerializeField]private GameObject GS;//GameScore(UI)
+    [SerializeField]private GameObject GO;//GameOver(screen)
     [SerializeField]private GameObject Player;
+    [SerializeField] private GameObject PM;//PauseMenu
 
     #region Singleton
     private static GameManager _instance;
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
             GS.SetActive(false);
             Player.SetActive(false);
             GO.SetActive(true);
+            PM.SetActive(false);
         }
     }
     private void OnEnable()

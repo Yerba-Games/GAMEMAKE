@@ -19,7 +19,6 @@ public class HPMG : MonoBehaviour
     #endregion
     public int HP;
     [SerializeField] private Image[] hearts;
-
     private void OnEnable()
     {
         for (int i = 0; i < hearts.Length; i++)
@@ -34,7 +33,8 @@ public class HPMG : MonoBehaviour
      {
        if (!(i<HP))
        {
-            hearts[i].enabled=false;
+
+            hearts[i].enabled=false;   
        }
      }   
     }

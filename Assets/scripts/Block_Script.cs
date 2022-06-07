@@ -7,8 +7,14 @@ public class Block_Script : MonoBehaviour
     public static event Action<Block_Script> OnBD;
     public GameObject Death;
     public float AddSpeed = 100;
-
-   void OnCollisionEnter2D(Collision2D coll)
+    [SerializeField] private Sprite oneHP;
+    [SerializeField] private Sprite twoHP;
+    [HideInInspector]public SpriteRenderer spriteRenderer;
+    void Start()
+    {
+        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+    }
+    void OnCollisionEnter2D(Collision2D coll)
     {
         ball Ball = coll.gameObject.GetComponent<ball>();
         APCL(Ball);//Apply Collison Logic
@@ -27,7 +33,15 @@ public class Block_Script : MonoBehaviour
         }
         else
         {
-            //potem bedzie zmieniaæ sprita
+            GetComponent<Animator>().enabled = false;
+            if (this.HP == 2)
+            {
+                spriteRenderer.sprite = twoHP;
+            }
+            else
+            {
+                spriteRenderer.sprite = oneHP;
+            }
         }
     }
 }

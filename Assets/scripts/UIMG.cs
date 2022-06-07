@@ -46,8 +46,4 @@ public class UIMG : MonoBehaviour
         scoreText.text = "SCORE:" + "\n" + "0";
         Block_Script.OnBD -= OnBD;
     }
-    void onExit()
-    {
-        Application.Quit();
-    }
 }

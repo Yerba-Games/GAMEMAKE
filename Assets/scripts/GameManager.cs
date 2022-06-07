@@ -4,12 +4,6 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour
 {   
-    [SerializeField]private HPMG _HPMG;
-    [SerializeField]private GameObject GS;//GameScore(UI)
-    [SerializeField]private GameObject GO;//GameOver(screen)
-    [SerializeField]private GameObject Player;
-    [SerializeField] private GameObject PM;//PauseMenu
-
     #region Singleton
     private static GameManager _instance;
     public static GameManager Instance => _instance;
@@ -26,8 +20,13 @@ public class GameManager : MonoBehaviour
  
     }
     #endregion
+    [SerializeField]private HPMG _HPMG;
+    [SerializeField]private GameObject GS;//GameScore(UI)
+    [SerializeField]private GameObject GO;//GameOver(screen)
+    [SerializeField]private GameObject Player;
+    [SerializeField] private GameObject PM;//PauseMenu
     public bool IsGameStarted {get; set;}
-    public GameObject[] BR;
+    [HideInInspector]public GameObject[] BR;
     //Balls Remaing - based on list of GameObjects
     public int BRC;
     //Balls Remaing Count - simply converst list to int making it able to check with if statment

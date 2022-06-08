@@ -22,10 +22,6 @@ public class UIMG : MonoBehaviour
     public int Score { get; set; }
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI finalScore;
-    private void Start()
-    {
-        Block_Script.OnBD += OnBD;
-    }
     private void OnEnable()
     {
         Block_Script.OnBD += OnBD;

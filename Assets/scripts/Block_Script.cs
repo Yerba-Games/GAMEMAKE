@@ -33,6 +33,7 @@ public class Block_Script : MonoBehaviour
         }
         else
         {
+            OnBD?.Invoke(this);
             GetComponent<Animator>().enabled = false;
             if (this.HP == 2)
             {

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6332178615505203442}
   - component: {fileID: 6332178615505203443}
   - component: {fileID: 6332178615505203436}
+  - component: {fileID: 2357124741644086353}
   - component: {fileID: 6332178615505203437}
   m_Layer: 0
   m_Name: Yellow_Block (1)
@@ -103,7 +104,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 1
   Death: {fileID: 7147068006028247023, guid: ddeaa9873493f5c42b23ec88011556a1, type: 3}
-  _GM: {fileID: 0}
+  AddSpeed: 100
+  oneHP: {fileID: 0}
+  twoHP: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!50 &6332178615505203442
 Rigidbody2D:
   serializedVersion: 4
@@ -171,6 +175,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2357124741644086353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6332178615505203444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1292410172
+      Data2: 1230704830
+      Data3: 1774394262
+      Data4: 545412540
+    Path: event:/event/cube_con 2
+  Event: 
+  PlayEvent: 2
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &6332178615505203437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,11 +220,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1289428124
-      Data2: 1230373271
-      Data3: -901360714
-      Data4: 470050205
-    Path: event:/block_col
+      Data1: 1322482842
+      Data2: 1175204291
+      Data3: -1417384317
+      Data4: -1195140683
+    Path: event:/event/cube_con
   Event: 
   PlayEvent: 9
   StopEvent: 0

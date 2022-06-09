@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8886936153359907488
+--- !u!114 &-5089077098642506654
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,17 +9,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/button
   m_EditorClassIdentifier: 
-  Path: fmod-assets/araknoidasounds/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637898016544605816
-  FileSizes:
-  - Name: Desktop
-    Value: 962
-  Exists: 1
+  Path: event:/ui/button
+  Guid:
+    Data1: 1974550635
+    Data2: 1335086986
+    Data3: 1850973358
+    Data4: 2067607207
+  Banks:
+  - {fileID: 8747020460915453564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4823115166034961436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +46,7 @@ MonoBehaviour:
     Data3: -1417384317
     Data4: -1195140683
   Banks:
-  - {fileID: 6875010384902651215}
+  - {fileID: 8747020460915453564}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -60,21 +67,44 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8886936153359907488}
-  - {fileID: 6875010384902651215}
+  - {fileID: 426187782416644357}
+  - {fileID: 8747020460915453564}
   EditorEvents:
   - {fileID: 8265590052575184508}
   - {fileID: 823189892269611060}
   - {fileID: 7715576297169627952}
   - {fileID: -4823115166034961436}
   - {fileID: 5784197126721526088}
+  - {fileID: 8592422315969393945}
+  - {fileID: 6715594781434081672}
+  - {fileID: -5089077098642506654}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6875010384902651215}
+  - {fileID: 8747020460915453564}
   StringsBanks:
-  - {fileID: -8886936153359907488}
-  cacheTime: 637898016544605816
+  - {fileID: 426187782416644357}
+  cacheTime: 637904083850000000
   cacheVersion: 10
+--- !u!114 &426187782416644357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: fmod-assets/araknoidasounds.v2/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637904083850000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1146
+  Exists: 1
 --- !u!114 &823189892269611060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,7 +124,7 @@ MonoBehaviour:
     Data3: 1032518314
     Data4: 2035307094
   Banks:
-  - {fileID: 6875010384902651215}
+  - {fileID: 8747020460915453564}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -102,6 +132,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5144112983456007571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/cube_con experimental/hp
+  m_EditorClassIdentifier: 
+  Name: hp
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 500748648
+    data2: 2634689207
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &5784197126721526088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,7 +175,7 @@ MonoBehaviour:
     Data3: -1753124730
     Data4: 1739635952
   Banks:
-  - {fileID: 6875010384902651215}
+  - {fileID: 8747020460915453564}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -129,7 +183,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &6875010384902651215
+--- !u!114 &6715594781434081672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,17 +192,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event/cube_con experimental
   m_EditorClassIdentifier: 
-  Path: fmod-assets/araknoidasounds/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637898016544585817
-  FileSizes:
-  - Name: Desktop
-    Value: 3450048
-  Exists: 1
+  Path: event:/event/cube_con experimental
+  Guid:
+    Data1: -340610864
+    Data2: 1129178612
+    Data3: 719074449
+    Data4: -825378232
+  Banks:
+  - {fileID: 8747020460915453564}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5144112983456007571}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7715576297169627952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,7 +230,7 @@ MonoBehaviour:
     Data3: -1051537763
     Data4: -97997361
   Banks:
-  - {fileID: 6875010384902651215}
+  - {fileID: 8747020460915453564}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -195,11 +257,58 @@ MonoBehaviour:
     Data3: 1625229444
     Data4: -268240971
   Banks:
-  - {fileID: 6875010384902651215}
+  - {fileID: 8747020460915453564}
   IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8592422315969393945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event/cube_con 2
+  m_EditorClassIdentifier: 
+  Path: event:/event/cube_con 2
+  Guid:
+    Data1: -1292410172
+    Data2: 1230704830
+    Data3: 1774394262
+    Data4: 545412540
+  Banks:
+  - {fileID: 8747020460915453564}
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &8747020460915453564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: fmod-assets/araknoidasounds.v2/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637904083850000000
+  FileSizes:
+  - Name: Desktop
+    Value: 3460032
+  Exists: 1

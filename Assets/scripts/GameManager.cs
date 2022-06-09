@@ -60,6 +60,7 @@ public class GameManager : MonoBehaviour
         GS.SetActive(true);
         Player.SetActive(true);
         GO.SetActive(false);
+        PM.SetActive(true);
     }
     /*remeber kids if you need to count something in unity do it at beginig of creating it
      * but if you don't
@@ -77,11 +78,18 @@ public class GameManager : MonoBehaviour
     }
     public void Victory()
     {
-        if(BRC<=0)
+        if (BRC <= 0)
         {
-            SceneManager.LoadScene("game 2");
-            IsGameStarted = false;
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                SceneManager.LoadScene(2);
+                IsGameStarted = false;
+            }
+            else
+            {
+                SceneManager.LoadScene(1);
+                IsGameStarted = false;
+            }
         }
     }
-
 }

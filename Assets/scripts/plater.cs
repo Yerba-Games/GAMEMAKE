@@ -20,11 +20,19 @@ public class plater : MonoBehaviour
     #endregion
     private Rigidbody2D rb;
     private float inputX;
-    public float speed = 9999f;
+    private float speed,BSpeed;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        speed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().speed;
+        BSpeed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().BallSpeed;
+    }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        speed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().speed;
+        BSpeed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().BallSpeed;
     }
     private void OnMove(InputValue movementValue)
     {
@@ -53,11 +61,11 @@ public class plater : MonoBehaviour
             if (hitPoint.x < stickCenter.x)
             //based on difference between where the ball hits and the center of stick adds a deviation to a ball
             {
-                ballRb.AddForce(new Vector2(-(Mathf.Abs(difference*200)), BallsManager.Instance.InitialBallSpeed));
+                ballRb.AddForce(new Vector2(-(Mathf.Abs(difference*200)), BallsManager.Instance.InitialBallSpeed+BSpeed));
             }
             else
             {
-                ballRb.AddForce(new Vector2((Mathf.Abs(difference * 200)), BallsManager.Instance.InitialBallSpeed));
+                ballRb.AddForce(new Vector2((Mathf.Abs(difference * 200)), BallsManager.Instance.InitialBallSpeed+BSpeed));
             }
         }
     }

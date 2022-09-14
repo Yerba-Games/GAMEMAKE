@@ -22,9 +22,13 @@ public class UIMG : MonoBehaviour
     public int Score { get; set; }
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI finalScore;
+    [SerializeField] private TextMeshProUGUI Level;
+    private int LevelNum;
     private void OnEnable()
     {
+        LevelNum = 1;
         Block_Script.OnBD += OnBD;
+        Level.text = $@"LEVEL:{LevelNum}";
     }
     private void UST(int incresmet)
     {
@@ -41,5 +45,9 @@ public class UIMG : MonoBehaviour
     {
         scoreText.text = "SCORE:" + "\n" + "0";
         Block_Script.OnBD -= OnBD;
+    }
+    private void OnLevelWasLoaded(int level)
+    {
+        LevelNum += 1;
     }
 }

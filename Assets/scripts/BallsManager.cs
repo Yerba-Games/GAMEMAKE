@@ -23,7 +23,7 @@ public class BallsManager : MonoBehaviour
     private ball ballPrefab;
     private ball initialBall;
     private Rigidbody2D initialBallrb;
-    public float InitialBallSpeed = 250;
+    public float InitialBallSpeed = 2000;
     public List<ball> Balls { get; set; }
     private void Start()
     {

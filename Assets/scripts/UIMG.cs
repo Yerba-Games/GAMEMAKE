@@ -28,7 +28,7 @@ public class UIMG : MonoBehaviour
     private int LevelNum;
     private void OnEnable()
     {
-        LevelNum = 1;
+        LevelNum = 0;
         Block_Script.OnBD += OnBD;
         Level.text = $@"LEVEL:{LevelNum}";
     }

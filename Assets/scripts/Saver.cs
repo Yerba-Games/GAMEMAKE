@@ -18,6 +18,7 @@ public class Saver : MonoBehaviour
         {
             _instance = this;
         }
+        SceneManager.sceneLoaded += this.OnLoadCallback;
     }
     #endregion
     void Start()
@@ -25,7 +26,7 @@ public class Saver : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void OnLevelWasLoaded(int level)
+    void OnLoadCallback(Scene scene, LoadSceneMode sceneMode)
     {
         if (SceneManager.GetActiveScene().name == "menu")
         {

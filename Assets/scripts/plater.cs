@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class plater : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class plater : MonoBehaviour
         {
             _instance = this;
         }
+        SceneManager.sceneLoaded += this.OnLoadCallback;
     }
     #endregion
     private Rigidbody2D rb;
@@ -29,7 +31,7 @@ public class plater : MonoBehaviour
         BSpeed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().BallSpeed;
     }
 
-    private void OnLevelWasLoaded(int level)
+    void OnLoadCallback(Scene scene, LoadSceneMode sceneMode)
     {
         speed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().speed;
         BSpeed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().BallSpeed;

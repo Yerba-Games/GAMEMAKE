@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class UIMG : MonoBehaviour
 {
     #region Singleton
@@ -17,6 +18,7 @@ public class UIMG : MonoBehaviour
         {
             _instance = this;
         }
+    SceneManager.sceneLoaded += this.OnLoadCallback;
     }
     #endregion
     public int Score { get; set; }
@@ -46,8 +48,9 @@ public class UIMG : MonoBehaviour
         scoreText.text = "SCORE:" + "\n" + "0";
         Block_Script.OnBD -= OnBD;
     }
-    private void OnLevelWasLoaded(int level)
+    void OnLoadCallback(Scene scene, LoadSceneMode sceneMode)
     {
         LevelNum += 1;
+        Level.text = $@"LEVEL:{LevelNum}";
     }
 }

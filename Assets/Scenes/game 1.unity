@@ -1263,7 +1263,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -3.9426699, y: -0.045601904}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1274,7 +1274,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 8.88534, y: 1.0912037}
   m_EdgeRadius: 0
 --- !u!114 &188919830
 MonoBehaviour:
@@ -4589,7 +4589,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 4.997616, y: -0.04233718}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4600,7 +4600,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 10.995232, y: 1.0846742}
   m_EdgeRadius: 0
 --- !u!114 &999106050
 MonoBehaviour:
@@ -5198,7 +5198,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 3.362354, y: -0.054293036}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5209,7 +5209,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 7.724708, y: 1.3064542}
   m_EdgeRadius: 0
 --- !u!50 &1266442292
 Rigidbody2D:
@@ -6010,10 +6010,6 @@ MonoBehaviour:
   GO: {fileID: 1786985410}
   Player: {fileID: 2067614425}
   PM: {fileID: 895325849}
-  DefultSpeed: 5
-  DefultBallSpeed: 0
-  speed: 0
-  BallSpeed: 0
   BR: []
   BRC: 0
 --- !u!1 &1449449468
@@ -9196,6 +9192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 279eb40f1af78c54f9d777ee372cc5a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Defaultspeed: 5
+  DefaultBSpeed: 0
 --- !u!114 &2067614431
 MonoBehaviour:
   m_ObjectHideFlags: 0

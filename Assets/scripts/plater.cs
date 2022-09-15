@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class plater : MonoBehaviour
 {
@@ -17,24 +16,32 @@ public class plater : MonoBehaviour
         {
             _instance = this;
         }
-        SceneManager.sceneLoaded += this.OnLoadCallback;
     }
     #endregion
     private Rigidbody2D rb;
     private float inputX;
-    private float speed,BSpeed;
+    [SerializeField]private float Defaultspeed,DefaultBSpeed;
+    private float speed, BSpeed;
+
+    private void OnEnable()
+    {
+        Block_Script.OnBD += OnBD;
+        speed = Defaultspeed;
+        BSpeed = DefaultBSpeed;
+    }
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        speed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().speed;
-        BSpeed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().BallSpeed;
     }
 
-    void OnLoadCallback(Scene scene, LoadSceneMode sceneMode)
+    void OnBD(Block_Script obj)
     {
-        speed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().speed;
-        BSpeed = GameObject.FindWithTag("GameController").GetComponent<GameManager>().BallSpeed;
+        if (speed < 10)
+        {
+            speed +=0.025f; 
+        }
+        BSpeed += 0.5f;
     }
     private void OnMove(InputValue movementValue)
     {
@@ -45,7 +52,6 @@ public class plater : MonoBehaviour
     {
         BallsManager.Instance.Fire();
     }
-
     // Update is called once per frame
     void Update()
     {

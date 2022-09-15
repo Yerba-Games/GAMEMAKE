@@ -25,8 +25,6 @@ public class GameManager : MonoBehaviour
     [SerializeField]private GameObject GO;//GameOver(screen)
     [SerializeField]private GameObject Player;
     [SerializeField]private GameObject PM;//PauseMenu
-    [SerializeField]private float DefultSpeed,DefultBallSpeed;
-    [HideInInspector]public float speed,BallSpeed;
 
     public bool IsGameStarted {get; set;}
     [HideInInspector]public GameObject[] BR;
@@ -56,8 +54,6 @@ public class GameManager : MonoBehaviour
             Player.SetActive(false);
             GO.SetActive(true);
             PM.SetActive(false);
-            speed = DefultSpeed;
-            BallSpeed = DefultBallSpeed;
         }
     }
     private void OnEnable()
@@ -66,8 +62,6 @@ public class GameManager : MonoBehaviour
         Player.SetActive(true);
         GO.SetActive(false);
         PM.SetActive(true);
-        speed = DefultSpeed;
-        BallSpeed = DefultBallSpeed;
     }
     /*remeber kids if you need to count something in unity do it at beginig of creating it
      * but if you don't
@@ -91,15 +85,11 @@ public class GameManager : MonoBehaviour
             {
                 SceneManager.LoadScene(2);
                 IsGameStarted = false;
-                speed += 0.5f;
-                BallSpeed += 2f;
             }
             else
             {
                 SceneManager.LoadScene(1);
                 IsGameStarted = false;
-                speed += 0.5f;
-                BallSpeed += 2f;
             }
         }
     }

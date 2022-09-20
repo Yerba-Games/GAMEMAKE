@@ -24,7 +24,7 @@ public class UIMG : MonoBehaviour
     public int Score { get; set; }
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI finalScore;
-    [SerializeField] private TextMeshProUGUI Level;
+    [SerializeField] private TextMeshProUGUI Level, finalLevel;
     private int LevelNum;
     private void OnEnable()
     {
@@ -38,6 +38,8 @@ public class UIMG : MonoBehaviour
         string sS = this.Score.ToString();
         scoreText.text = "SCORE:"+"\n"+sS;
         finalScore.text = $@"YOUR FINAL SCORE:{sS}";
+        finalLevel.text = $@"LEVEL:{LevelNum}";
+        
     }
     public void OnBD(Block_Script obj)
     {

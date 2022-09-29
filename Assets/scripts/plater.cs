@@ -37,7 +37,7 @@ public class plater : MonoBehaviour
 
     void OnBD(Block_Script obj)
     {
-        if (speed < 10)
+        if (speed < 15)
         {
             speed +=0.025f; 
         }

@@ -6630,6 +6630,7 @@ MonoBehaviour:
   scoreText: {fileID: 883924960}
   finalScore: {fileID: 1121783884}
   Level: {fileID: 136189974}
+  finalLevel: {fileID: 0}
 --- !u!114 &1659721681
 MonoBehaviour:
   m_ObjectHideFlags: 0

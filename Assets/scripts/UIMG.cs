@@ -38,7 +38,7 @@ public class UIMG : MonoBehaviour
         string sS = this.Score.ToString();
         scoreText.text = "SCORE:"+"\n"+sS;
         finalScore.text = $@"YOUR FINAL SCORE:{sS}";
-        finalLevel.text = $@"LEVEL:{LevelNum}";
+        //finalLevel.text = $@"LEVEL:{LevelNum}";
         
     }
     public void OnBD(Block_Script obj)

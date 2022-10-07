@@ -210,7 +210,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1659721681}
         m_TargetAssemblyTypeName: bytom, Assembly-CSharp
-        m_MethodName: quitGame
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2534,7 +2534,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1659721681}
         m_TargetAssemblyTypeName: bytom, Assembly-CSharp
-        m_MethodName: quitGame
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7470,7 +7470,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786985410}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55028b9a415e75b4e9e49adcf0a76e05, type: 3}
   m_Name: 
@@ -8044,7 +8044,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893221308}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55028b9a415e75b4e9e49adcf0a76e05, type: 3}
   m_Name: 
